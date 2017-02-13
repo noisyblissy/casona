@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>Fishing
+</title>
+</head>
+<body bgcolor="99ff66" text="#003300">
+<h2>Fishing</h2>  
+  <a href="supplies.htm" omMouseOver="changeStatus
+    ('Fishing Supplies');return true";>
+     Rent Fishing Equipment</a><br>
+  <a href="rent.htm" onMouseover="changeStatus
+    ('We rent supplies daily!');return true";>
+  <a href="location.htm" omMouseover="changeStatus
+    ('Maps to nearby lakes!'); return true";>
+    Fishing Locations</a><br>
+  <a href="tales.htm" onMouseOver="changeStatus
+  ('Share your fishing tales!');return true";>
+    Fishing Tales</a><br>
+  <a href=""links.htm" onMouseOver=changeStatus
+    ('Links to other fish sites');return true";>
+    Fishing Links</a><br>
+  <a href="fish.htm" onMouseOver='changeStatus
+    ('Fishing Ditionary');return true;>
+  <a href="fish.htm" onMouseOver="changeStatus
+    (' ');return true";>
+    Fish Store</a><br>
+    
+    <script language="javascipt">
+    window.defaultStatus="Welcome to Fish Cove!";
+    function changeStatus(statusMessage){
+      window.status=stausmessage;
+      }
+      </script>
+      </html>
+      </body>
