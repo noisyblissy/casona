@@ -3,7 +3,7 @@
 <title>Fishing
 </title>
 </head>
-{
+
  </script>
   <h3 align="center"> Click Button to Change Color BackGround!
   <form  name="frmColor" action="javascript:void(0);">
